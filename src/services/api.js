@@ -6,7 +6,7 @@ import axios from "axios";
 
   
   const axioService = axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: "https://3e78-197-146-8-196.ngrok-free.app/api",
   headers: {
     "Content-Type": "application/json",
     Authorization: `Bearer ${token}`,
