@@ -31,6 +31,10 @@ export const router = createBrowserRouter([
     element: <GuestLayout />,
     children: [
       {
+        path: "/",
+        element: <HomePage />,
+      },
+      {
         path: "/app",
         element: <HomePage />,
       },
